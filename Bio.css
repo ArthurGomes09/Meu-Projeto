@@ -1,0 +1,102 @@
+
+.header{
+    background-color: darkgray;
+    border-radius: 35px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+main h1, p, h2, h3 article{
+    color:white;
+    width: 800px; 
+    height: 30px;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+a{
+    text-decoration: unset;
+    color:white;
+    margin: auto;
+    padding: 10px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img{
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    color: white;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+#ses{
+    filter:grayscale(100%);
+}
+footer p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    
+}
+.BioAll{
+    background-image: linear-gradient(white, gray,black);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 50;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
+.Banda{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 500px;
+    height: auto;
+}
+a:hover{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 10in;
+}
+a:active{
+    background-color: white;
+    color: black;
+}
+.Steve{
+    float: left;
+    padding: 10px;
+}
+p.acusacao{
+    margin-top: 120px;
+    text-align: center;
+    display: block;
+}
+.h2doido{
+    margin-top: 380px;
+}
+.sss{
+    float:left;
+    padding: 10px;
+    display: inline-block;
+    width: 400px;
+}
+#dois{
+    text-align:left;
+    
+}

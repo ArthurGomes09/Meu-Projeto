@@ -1,11 +1,11 @@
 .all{
-    background-image: linear-gradient(#DD0724, black);
+    background-image: linear-gradient(black, #DD0724);
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    height: 50;
+    height: 1000px;
     border-radius: 10px;
 }
 body{
@@ -26,8 +26,7 @@ main h1, p, h2, h3 article{
     height: 30px;
     margin: auto;
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 a{
     text-decoration: unset;
@@ -49,12 +48,36 @@ img{
 ul{
     color: white;
     text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 #ses{
     filter:grayscale(100%);
 }
 footer p{
     text-align: center;
+    padding: 300px;
     
+}
+#HeaderIndex{
+    background-color: #DD0724;
+}
+a:hover{
+    background-color: white;
+    padding: 10px;
+    color: #DD0724;
+    border-radius: 10in;
+}
+a:active{
+    background-color: #44030b;
+    color: white;
+}
+
+#Desc{
+right: 100px;
+text-align:center;
+}
+#Album{
+    float:left;
+    padding: 10px;
+    margin: 10px;
 }
