@@ -54,9 +54,11 @@ ul{
     filter:grayscale(100%);
 }
 footer p{
+    line-height: 100px;
+    display: inline-block;
+    vertical-align:bottom;
     text-align: center;
-    padding: 300px;
-    
+    padding: 35px;
 }
 #HeaderIndex{
     background-color: #DD0724;
